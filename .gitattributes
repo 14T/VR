@@ -1,0 +1,4 @@
+Assets/ArchVizPRO filter=lfs diff=lfs merge=lfs -text
+Interior filter=lfs diff=lfs merge=lfs -text
+Vol.4/3D filter=lfs diff=lfs merge=lfs -text
+SCENE/Avp4_Standard/ReflectionProbe-1.exr filter=lfs diff=lfs merge=lfs -text
