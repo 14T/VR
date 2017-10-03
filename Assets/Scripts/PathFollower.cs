@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PathFollower : MonoBehaviour {
 	Node[] pathNode;
-	GameObject player;
+	public GameObject player;
 	//the object who move along the path.
 	public float moveSpeed;
 	//the speed when moving along the path
@@ -17,7 +17,7 @@ public class PathFollower : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindGameObjectsWithTag ("Player")[0];
+		// player = GameObject.FindGameObjectsWithTag ("Player")[0];
 		pathNode = GetComponentsInChildren<Node> ();
 		CheckNode (); 
 	
